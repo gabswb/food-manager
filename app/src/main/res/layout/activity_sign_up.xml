@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.SignUpActivity">
+
+    <LinearLayout
+
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".controller.LoginActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Welcome in Food Manager, please enter your registration details"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/activity_sign_up_message_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@color/green"
+            android:text="" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/activity_sign_up_username_error_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/activity_sign_up_username_input"
+                android:layout_width="360dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Username" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/activity_sign_up_password_error_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/activity_sign_up_password_input"
+                android:layout_width="360dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/activity_sign_up_password_confirmation_error_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/activity_sign_up_password_confirmation_input"
+                android:layout_width="360dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Password confirmation" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/activity_sign_up_sign_up_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Submit"
+            android:textSize="15sp"></Button>
+
+        <Button
+            android:id="@+id/activity_sign_up_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Log in"
+            android:textSize="15sp"></Button>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

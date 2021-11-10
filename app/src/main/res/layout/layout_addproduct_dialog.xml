@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/addproduct_dialog_inptu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="@dimen/low_margin"
+        android:layout_marginHorizontal="@dimen/medium_margin"
+        android:hint="Type"></EditText>
+
+    <EditText
+        android:id="@+id/addproduct_dialog_inptu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="@dimen/low_margin"
+        android:layout_marginHorizontal="@dimen/medium_margin"
+        android:hint="Name"></EditText>
+
+    <EditText
+        android:id="@+id/addproduct_dialog_inptu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/low_margin"
+        android:layout_marginHorizontal="@dimen/medium_margin"
+        android:hint="Quantity"></EditText>
+
+    <DatePicker
+        android:id="@+id/addproduct_dialog_input4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/medium_margin"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        ></DatePicker>
+
+</LinearLayout>

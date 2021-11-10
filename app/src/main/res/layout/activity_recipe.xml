@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myproduct_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.MyProductActivity">
+
+    <TextView
+        android:id="@+id/recipe_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/recipe_title"
+        android:textSize="30sp"></TextView>
+
+    <SearchView
+        android:id="@+id/recipe_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search recipe"/>
+
+    <CheckBox
+        android:id="@+id/recipe_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Display available"
+        android:onClick="onCheckboxClicked"
+        tools:ignore="OnClick" />
+
+    <ListView
+        android:id="@+id/recipe_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>
+

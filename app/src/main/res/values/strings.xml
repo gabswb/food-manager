@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food Manager</string>
+    <string name="user_id">userID</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="password_error_invalid">This password is invalid</string>
+    <string name="password_confirmation_error">Please enter a password</string>
+    <string name="password_confirmation_error_invalid">Passwords do not correspond</string>
+    <string name="username_error">Please enter an username</string>
+    <string name="username_error_invalid">This username is invalid</string>
+    <string name="sign_up_succeed">Sign up successful</string>
+    <string name="myproduct_title">Here is the inventory of your products</string>
+    <string name="product_description">Product description</string>
+    <string name="recipe_title">Here are the recipes</string>
+    <string name="recipe_description">Recipe description</string>
+    <string name="channel_name">chanel_name</string>
+    <string name="channel_description">channel_description</string>
+    <string name="shopping_list">Shopping List</string>
+</resources>
